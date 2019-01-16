@@ -1,3 +1,5 @@
-# MuJoCo-Nao
+# Nao-bindings
 
-Hosting mujoco files for Nao robot.
+Use this to run your algorithms on Nao robot.
+
+

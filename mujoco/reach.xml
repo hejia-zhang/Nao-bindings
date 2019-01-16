@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mujoco>
+    <compiler angle="radian" meshdir="./nao_meshes/meshes/V40/"/>
+    <option timestep="0.002" integrator="Euler">
+        <flag warmstart="enable"/>
+    </option>
+    <!--<default>-->
+        <!--<joint stiffness="0.0125" armature="1" damping="1"/>-->
+    <!--</default>-->
+    <size njmax="500" nconmax="100"/>
+    <include file="shared.xml"/>
+
+    <worldbody>
+        <geom condim="3" friction="1 .1 .1" material="MatPlane" name="floor" pos="0 0 -0.335" rgba="0.8 0.9 0.8 1" size="20 20 0.125" type="plane"/>
+
+        <include file="robot.xml"/>
+
+        <site name="target" pos="0.125 0.125 0.125" size="0.01 0.01 0.01" rgba="1 0 0 1"/>
+    </worldbody>
+
+</mujoco>

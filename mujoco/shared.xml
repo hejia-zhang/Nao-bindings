@@ -1,0 +1,45 @@
+<mujoco>
+    <asset>
+        <mesh name="Torso_0.10" file="Torso_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="HeadYaw_0.10" file="HeadYaw_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="HeadPitch_0.10" file="HeadPitch_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="LHipYawPitch_0.10" file="LHipYawPitch_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="LHipRoll_0.10" file="LHipRoll_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="LHipPitch_0.10" file="LHipPitch_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="LKneePitch_0.10" file="LKneePitch_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="LAnklePitch_0.10" file="LAnklePitch_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="LAnkleRoll_0.10" file="LAnkleRoll_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="RHipYawPitch_0.10" file="RHipYawPitch_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="RHipRoll_0.10" file="RHipRoll_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="RHipPitch_0.10" file="RHipPitch_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="RKneePitch_0.10" file="RKneePitch_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="RAnklePitch_0.10" file="RAnklePitch_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="RAnkleRoll_0.10" file="RAnkleRoll_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="LShoulderPitch_0.10" file="LShoulderPitch_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="LShoulderRoll_0.10" file="LShoulderRoll_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="LElbowRoll_0.10" file="LElbowRoll_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="LWristYaw_0.10" file="LWristYaw_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="LFinger21_0.10" file="LFinger21_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="LFinger22_0.10" file="LFinger22_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="LFinger23_0.10" file="LFinger23_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="LFinger11_0.10" file="LFinger11_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="LFinger12_0.10" file="LFinger12_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="LFinger13_0.10" file="LFinger13_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="LThumb1_0.10" file="LThumb1_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="LThumb2_0.10" file="LThumb2_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="RShoulderPitch_0.10" file="RShoulderPitch_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="RShoulderRoll_0.10" file="RShoulderRoll_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="RElbowRoll_0.10" file="RElbowRoll_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="RWristYaw_0.10" file="RWristYaw_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="RFinger21_0.10" file="RFinger21_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="RFinger22_0.10" file="RFinger22_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="RFinger23_0.10" file="RFinger23_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="RFinger11_0.10" file="RFinger11_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="RFinger12_0.10" file="RFinger12_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="RFinger13_0.10" file="RFinger13_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="RThumb1_0.10" file="RThumb1_0.10.stl" scale="0.1 0.1 0.1" />
+        <mesh name="RThumb2_0.10" file="RThumb2_0.10.stl" scale="0.1 0.1 0.1" />
+        <texture builtin="checker" height="100" name="texplane" rgb1="0 0 0" rgb2="0.8 0.8 0.8" type="2d" width="100"/>
+        <material name="MatPlane" reflectance="0.5" shininess="1" specular="1" texrepeat="60 60" texture="texplane"/>
+    </asset>
+</mujoco>
